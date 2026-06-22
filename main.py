@@ -2,14 +2,14 @@ import random
 import datetime
 
 def generate_quote():
-    quotes1 = [
+    quotes2 = [
         "Keep learning.",
         "Code, sleep, repeat.",
         "Every bug is an opportunity.",
         "Small steps lead to big results.",
         "Consistency beats intensity."
     ]
-    return random.choice(quotes1)
+    return random.choice(quotes2)
 
 def main():
     print("=== Git Test Program ===")
